@@ -242,7 +242,6 @@ Features
 
 
 ## Repository Structure
-```text
 Anomaly-Detection-and-Forecasting-for-Devices-In-Ignition/
 │
 ├── backend/
@@ -677,5 +676,4 @@ Possible Future Improvements
 
 Disclaimer
 
-This repository is intended for educational and prototype demonstration purposes. It uses simulated IIoT data and does not include confidential company data, real production data, or internal infrastructure details.
 This repository is intended for educational and prototype demonstration purposes. It uses simulated IIoT data and does not include confidential company data, real production data, or internal infrastructure details.
