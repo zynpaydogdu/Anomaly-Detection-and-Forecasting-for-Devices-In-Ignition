@@ -1,0 +1,103 @@
+{
+  "custom": {},
+  "params": {
+    "durationMs": "value",
+    "message": "value",
+    "popupId": "value",
+    "type": "value"
+  },
+  "propConfig": {
+    "params.durationMs": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.message": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.popupId": {
+      "paramDirection": "input",
+      "persistent": true
+    },
+    "params.type": {
+      "paramDirection": "input",
+      "persistent": true
+    }
+  },
+  "props": {
+    "defaultSize": {
+      "height": 86,
+      "width": 212
+    }
+  },
+  "root": {
+    "children": [
+      {
+        "children": [
+          {
+            "meta": {
+              "name": "Label"
+            },
+            "position": {
+              "basis": "800px"
+            },
+            "propConfig": {
+              "props.text": {
+                "binding": {
+                  "config": {
+                    "path": "view.params.message"
+                  },
+                  "type": "property"
+                }
+              }
+            },
+            "props": {
+              "style": {
+                "alignContent": "center",
+                "alignItems": "center",
+                "fontSize": "20px",
+                "fontWeight": "bold"
+              },
+              "textStyle": {
+                "alignContent": "center",
+                "alignItems": "center",
+                "alignSelf": "center"
+              }
+            },
+            "type": "ia.display.label"
+          }
+        ],
+        "meta": {
+          "name": "toastContainer"
+        },
+        "position": {
+          "basis": "79px"
+        },
+        "props": {
+          "style": {
+            "minHeight": "50px",
+            "minWidth": "80px",
+            "overflow": "hidden"
+          }
+        },
+        "type": "ia.container.flex"
+      }
+    ],
+    "custom": {
+      "durationMs": "value",
+      "message": "value",
+      "popupId": "value",
+      "type": "value"
+    },
+    "meta": {
+      "name": "root"
+    },
+    "props": {
+      "direction": "column",
+      "style": {
+        "overflow": "hidden"
+      }
+    },
+    "type": "ia.container.flex"
+  }
+}
